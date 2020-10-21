@@ -1,0 +1,99 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table, th, td, tr
+{
+    border-collapse: collapse;
+    border: 2px solid green;
+}
+
+
+
+.class1
+{
+    text-align: center;
+    background-color: rgb(37, 150, 255);
+}
+#class1
+{
+    text-align: center;
+}
+
+
+
+.class2
+{
+    text-align: right;
+    background-color: yellow;
+}
+#class2
+{
+    text-align: right;
+}
+
+
+
+.class3
+{
+    text-align: left;
+    background-color: rgb(13, 216, 13);
+}
+#class3
+{
+    text-align: left;
+}
+
+
+
+#secondline
+{
+    background-color: rgb(13, 216, 13);
+    color: red;
+}
+
+.forms
+{
+    width: 500px;
+    margin: 0px auto;
+    border-style: solid;
+    border-color: green;
+    
+}
+
+
+div
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+ label
+ {
+     width: 150px;
+     display: inline-block;
+     text-align: right;
+     
+ }
+
+
+ .buttontxt
+ {
+     width: 420px;
+     text-align: center;
+     
+ }
+
+
+.button
+{
+    width: 130px;
+    
+}
+
