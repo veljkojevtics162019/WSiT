@@ -8,41 +8,145 @@
     
 </head>
 <body>
-    <table>
-        <thead>
-            <tr>
-                <th class="class1">Ime</th><th class="class2">Prezime</th><th class="class3">JMBG</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td class="class1">Milovan</td><td class="class2">Milovanovic</td><td class="class3">1607000760035</td>
-            </tr>
-            <tr id="secondline">
-                <td id="class1">Ljubica</td><td id="class2">Ljubic</td><td id="class3">30059981155</td>
-            </tr>
-            <tr>
-                <td class="class1">Lazar</td><td class="class2">Lazarevic</td><td class="class3">0207002760094</td>
-            </tr>
-        </tbody>
-    </table>
+    <nav>
+          <img src="slika.jpg">
+          <p>Mnogobrojne zadovoljne musterije<br>su merilo kvaliteta nasih proizvoda</p>
+        <ul>
+          <li><a href="">Pocetna strana</a></li>
+          <li><a href="">O nama</a></li>
+          <li><a href="">Kontakt</a></li>
+        </ul>
 
-    <form action="" class="forms" method="POST">
-        <div class="Ime">
-            <label for="Ime">Ime</label>
-            <input type="text"> <br>
+      </nav>
+      <div class="vest">
+        <h3>Vesti i saveti:</h3>
+        <br>
+        <a href = "https://www.polovniautomobili.com/auto-vesti/saveti/7172/da-li-staviti-fiksni-umesto-plivajuceg-zamajca-set-za-konverziju"><img src = "vest.jpg"></a>
+        <h4>Da li staviti fiksni <br>umesto plivajućeg zamajca – set <br>za konverziju</h4><br><br>
+        <a href = "https://www.polovniautomobili.com/auto-vesti/saveti/7173/vi-placate-svu-stetu-ako-izazovete-udes-bez-zimskih-guma"><img src = "vest2.jpg"></a>
+        <h4>Vi plaćate svu štetu<br>ako izazovete udes<br> bez zimskih guma</h4>
+      </div>
+      <form action="" class="form" method="POST">
+        <div>
+        <label for="username"> Korisnicko ime:</label>
+        <input type="text" name="username">
         </div>
-        <div class="Prezime">
-            <label for="Prezime">Prezime</label>
-            <input type="text">
+  
+        <div>
+        <label for="password">Lozinka:</label>
+        <input type="password" name="password">
         </div>
-        <div class="JMBG">
-            <label for="JMBG">JMBG</label>
-            <input type="text">
+  
+        <div>
+        <label for="date">Datum rodjenja:</label>
+        <input type="date" name="date">
         </div>
+  
+        <div>
+        <label for="godina">Godine:</label>
+        <input type="number" name="godina">
+        </div>
+  
+        <div>
+        <label for="pol">Pol:</label>
+        <input type="radio" name="pol"> M
+        <input type="radio" name="pol"> Z
+        </div>
+  
+        <div>
+        <label for="drzava">Drzava:</label>
+        <select name="drzava">
+        <option value="srbija"> Srbija</option>
+        <option value="crnaGora"> Crna Gora</option>
+        <option value="bih"> Bosna i Hercegovina</option>
+        <option value="rumunija"> Rumunija</option>
+        </select>
+        </div> 
+      </div>   
+   
+      <div class= "check">
+      <input type="checkbox" name="saglasnost">
+      <label for="saglasnost">Saglasan/a sam sa<br> uslovima koriscenja</label>
+        </div>
+      
         <div class="buttontxt">
-            <button class="button">Potvrdi</button>
+        <button class="button"> Napravi profil</button>
         </div>
     </form>
+
+
+
+        <div class="central">
+          <ul>
+          <li class="product"> 
+            <br>
+            <img src = "1.jpg">
+            <br>
+            <h3>BA15S LED CRVENA</h3>
+            <br>
+            190.00rsd
+            <br>
+            <button>Dodaj u korpu</button> 
+          </li>
+          <li class="product">
+            <br>
+            <img src = "2.jpg">
+            <br>
+            <h3>BAY15S LED sijalica </h3>
+            <br>
+            300.00rsd
+            <br>
+            <button>Dodaj u korpu</button> 
+          </li>
+          <li class="product">
+            <br>
+            <img src = "3.jpg">
+            <br>
+            <h3>BAY15S P21W/5W LED</h3>
+            <br>
+            300.00rsd
+            <br>
+            <button>Dodaj u korpu</button>
+          </li>
+          <li class="product">
+            <br>
+            <img src = "4.jpg">
+            <br>
+            <h3>LED C6 – H7 SET</h3>
+            <br>
+            1200.00rsd
+            <br>
+            <button>Dodaj u korpu</button>
+          </li>
+          <li class="product">
+            <br>
+            <img src = "5.jpg">
+            <br>
+            <h3>LED SET M6 PRO – H1</h3>
+            <br>
+            3600.00rsd
+            <br>
+            <button>Dodaj u korpu</button>
+          </li>
+          <li class="product">
+            <br>
+            <img src = "6.jpg">
+            <br>
+            <h3>LED SULFID FESTOON 39MM</h3>
+            <br>
+            300.00rsd
+            <br>
+            <button>Dodaj u korpu</button>
+          </li>
+          </ul>
+        </div>            
+    <div class="footer">
+      <p>Veljko Jevtic S16/2019</p>
+      <p>vjevtic1619s@raf.rs</p>
+      <p>Cetinjska 3, Skobalj</p>
+      <p>061/135-10-37</p>
+    </div>
+    
+
 </body>
 </html>

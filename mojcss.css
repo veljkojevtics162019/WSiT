@@ -2,90 +2,146 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav
+{
+    background: #ff5e00;
+    height: 100px;
+    width: 100%;
+}
+
+nav img
+{
+    height: 90px;
+    width: 90px;
+    margin: 5px 5px 5px 5px;
+}
+p
+{
+    padding-top: 15px;
+    margin-right: 10px;
     font-family: 'Times New Roman', Times, serif;
-}
-
-table, th, td, tr
-{
-    border-collapse: collapse;
-    border: 2px solid green;
-}
-
-
-
-.class1
-{
-    text-align: center;
-    background-color: rgb(37, 150, 255);
-}
-#class1
-{
-    text-align: center;
-}
-
-
-
-.class2
-{
-    text-align: right;
-    background-color: yellow;
-}
-#class2
-{
-    text-align: right;
-}
-
-
-
-.class3
-{
-    text-align: left;
-    background-color: rgb(13, 216, 13);
-}
-#class3
-{
-    text-align: left;
-}
-
-
-
-#secondline
-{
-    background-color: rgb(13, 216, 13);
-    color: red;
-}
-
-.forms
-{
-    width: 500px;
-    margin: 0px auto;
-    border-style: solid;
-    border-color: green;
+    color: green;
+    float: right;
+    font-size: 20px;
     
+}
+
+
+nav ul
+{
+    float: right;
+    margin-right: 280px;
+    margin-top: 45px;
+}
+
+nav ul li
+{
+    display: inline-block;
+    line-height: 100x; 
+    margin-right: 50px;
+}
+
+nav ul li a
+{
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: all 2s;
+}
+.active, a:hover
+{
+    background: blue;
+    transition: all 2s;
+}
+.vest
+{
+    padding:5px;
+    margin: 5px;
+    float: left;
+    width: 20%;
+    clear: both;
+
+}
+.vest a
+{
+    
+    margin: 10px 10px 10px 10px;
+}
+.vest img
+{
+    border: 2px solid blue;
+
+}
+.central
+{
+    background-color: rgb(192, 192, 192);
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+.product
+{
+    display: inline-block;
+    margin-right: 5%;
+    padding-left: 5%;
+}
+
+img
+{
+    width: 160px;
+    height: 160px;
+}
+
+form
+{
+    width: 20%;
+    float: right;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.footer
+{
+    height: 100px;
+    font-size: 35px;
+    background-color: #ff5e00;
+}
+.footer p
+{
+    float: left;
+    margin-left: 50px;
+    color: black;
 }
 
 
 div
 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 0px;
     margin-right: 0px;
 }
 
+.check
+{
+	margin-left: 44%;
+}
 
  label
  {
-     width: 150px;
-     display: inline-block;
-     text-align: right;
+     width: 90px;
+    
      
  }
 
-
  .buttontxt
  {
-     width: 420px;
+     margin-left: 150px;
      text-align: center;
      
  }
@@ -93,7 +149,6 @@ div
 
 .button
 {
-    width: 130px;
+    width: 150px;
     
 }
-
