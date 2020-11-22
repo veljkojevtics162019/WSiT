@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=" width=device-width", initial-scale = 1.0">
+    <title>Domaci</title>
+    <link rel="stylesheet" href="../CSS/kontakt.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+  <script>
+    function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+          x.style.display = "none";
+          } else {
+          x.style.display = "block";
+          }
+    }
+  </script>
+
+    <nav>
+            <a href="#home" class="active"><img width="120px" src="../Slike/slika.jpg"></a>
+            <div id="myLinks">
+                  <li><a href="PocetnaStrana.html">Pocetna strana</a></li>
+                  <li><a href="ONama.html">O nama</a></li>
+                  <li><a href="Kontakt.html">Kontakt</a></li>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+      </nav>
+      
+      <div class="container">
+        <div class="col-md-12">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1460.0294802428602!2d21.01974187156858!3d44.569636904315246!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ssr!2srs!4v1605799017400!5m2!1ssr!2srs" height="350px" width="450px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+
+
+
+      <div class="container">
+        <div class="col-md-12">
+          <h3>Posalji poruku</h3>
+          <div class="hr1"></div> 
+          <input type="text" class="ime" name="ime" placeholder="Ime">
+          <input type="text" class="mail" name="mail" placeholder="Mail">
+          <br>
+          <input type="text" class="naslov" name="naslov" placeholder="Naslov poruke">
+          <br>
+          <input type="text" class="poruka" name="poruka" placeholder="Poruka">
+          <br>
+          <button class="button">POSALJI</button>
+        </div>
+      </div>
+
+
+
+      <div class="row">
+        <div style="padding: 0;" class="col-md-12">
+          <div class="footer">
+                <p>
+                      Veljko Jevtic S16/2019<br>
+                      vjevtic1619s@raf.rs<br>
+                      Cetinjska 3, Skobalj<br>
+                      061/135-10-37
+                </p>
+          </div>
+        </div>
+  </div>
+    
+
+</body>
+</html>

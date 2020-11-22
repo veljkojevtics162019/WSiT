@@ -1,0 +1,109 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    overflow: hidden;
+    background-color:#ff5e00;
+    position: relative;
+    
+  }
+  
+ nav #myLinks {
+    display: none;
+    
+  }
+
+  nav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+  }
+  
+nav a.icon {
+    background: black;
+    color: white;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+
+.vest{
+    float: left;
+    margin-left: 30px;
+}
+.vest img
+{
+    width: 200px;
+    height: 140px;
+    display: inline-block;
+}
+
+
+
+.product
+{
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.product img
+{
+    height: 200px;
+    width: 200px;
+}
+
+form
+{ 
+    align-items: left;
+    width: 350px;
+    margin-top: 20px;
+}
+
+.footer
+{
+    bottom: 0;
+    height: 140px;
+    background-color: #ff5e00;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px 10px 10px 10px;
+}
+.footer p
+{
+    color: black;
+    font-size: 20px;
+}
+
+
+ label
+ {
+     width: 100px;
+    
+     
+ }
+
+ .buttontxt
+ {
+
+    text-align: center;
+     
+ }
+
+
+.button
+{
+    width: 150px;
+    
+}
